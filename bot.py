@@ -53,5 +53,5 @@ async def cals_clear_callback(call:CallbackQuery):
         
 
 
-if __name__ =="main":
+if __name__ =="__main__":
     executor.start_polling(dp)
